@@ -175,8 +175,12 @@ h1{
 	}
 
 	hr {
-		border: 0;
-		border-top: solid 1px #ddd;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
 	}
 
 	blockquote {
@@ -201,8 +205,8 @@ h1{
 .body {
     padding: 0;
 	margin:0;
-	height: 100vh;
-	background-size: auto;
+	
+	background-size: cover;
     background-image: url("https://i.pinimg.com/originals/a6/bf/1c/a6bf1ca75ad990e12c886616b5adfa02.gif");
 	}
 /* Add a black background color to the top navigation */
@@ -212,7 +216,7 @@ h1{
 
 /* Style the links inside the navigation bar */
 .topnav a {
-    float: left;
+    float: right;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
