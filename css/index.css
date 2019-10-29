@@ -39,7 +39,7 @@
   background-color: #000;
   text-align: center;
   cursor: pointer;
-  width: 101%;
+  width: 100%;
 }
 .button:hover {
   background-color: #555;
